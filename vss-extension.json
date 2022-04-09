@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 1,
+  "id": "work-tagger",
+  "publisher": "LewInnovationPtyLtd",
+  "version": "1.0.0",
+  "name": "Work Tagger",
+  "description": "Allows for tagging and commenting on work items that were involved in a build for the purpose of letting everyone know which tickets have been deployed for example.",
+  "public": false,
+  "categories": ["Azure Pipelines"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "workTagger",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "workTagger"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "src"
+    }
+  ]
+}
