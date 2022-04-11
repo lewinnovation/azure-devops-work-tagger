@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "work-tagger",
   "publisher": "LewInnovationPtyLtd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Work Tagger",
   "description": "Allows for tagging and commenting on work items that were involved in a build for the purpose of letting everyone know which tickets have been deployed for example.",
   "public": false,
@@ -26,7 +26,8 @@
   ],
   "files": [
     {
-      "path": "src"
+      "path": "src",
+      "packagePath": "workTagger"
     }
   ]
 }
